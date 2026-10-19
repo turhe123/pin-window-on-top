@@ -1,0 +1,60 @@
+{
+  "seo_title": "Pin windows on top for macOS",
+  "seo_description": "Free, open-source menu bar app that keeps any macOS window above the rest. Pin the frontmost window with a global hotkey. Native, offline, no accounts.",
+  "hero_title_line1": "Keep any window",
+  "hero_title_accent": "above the rest.",
+  "hero_sub": "PinWindowOnTop is a free menu bar utility that keeps the windows you choose above everything else. Press Control-Option-P to pin the frontmost window, and again to unpin it.",
+  "features_title": "Small utility, careful details.",
+  "features_sub": "Everything runs locally on your Mac, with no accounts, servers or network access.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global pin hotkey",
+      "desc": "Pin or unpin the frontmost window from any app with Control-Option-P. You can re-record the shortcut in Settings or reset it to the default."
+    },
+    {
+      "icon": "window",
+      "title": "Multiple pinned windows",
+      "desc": "Pin as many windows as you need. Their order stays stable, and windows with identical titles are told apart by window ID."
+    },
+    {
+      "icon": "eye",
+      "title": "Optional border marker",
+      "desc": "Draw a click-through colored border around pinned windows. Choose the color, thickness from 1 to 10 pt, and opacity."
+    },
+    {
+      "icon": "sliders",
+      "title": "Gentle and full-screen modes",
+      "desc": "Gentle mode raises pinned windows only when the active app changes. Pins also pause while a non-pinned app is full screen."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Menu bar control",
+      "desc": "The pin icon fills when something is pinned. The menu lists each pinned window by app and title, with Focus, Unpin and Unpin All actions."
+    },
+    {
+      "icon": "clock",
+      "title": "Automatic cleanup",
+      "desc": "Pins are dropped when a window closes or its app quits. Minimized windows and windows on other Spaces pause, then resume when visible. Launch at login is optional."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access in System Settings > Privacy & Security > Accessibility so the app can find and raise windows.",
+  "faq": [
+    {
+      "q": "Is PinWindowOnTop really free and open source?",
+      "a": "Yes. It is released under the MIT license, and the full source is on GitHub. There are no accounts, subscriptions or paid tiers, and optional donations help support development."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "It needs Accessibility access to find the focused window, raise pinned windows, and watch for move, resize, minimize and close events. It does not request Screen Recording, Microphone, Camera or network access, and it reads only window titles, positions and sizes."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Your hotkey and border appearance settings are saved in the app's local preferences. Pinned windows are tracked in memory and are not persisted or sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

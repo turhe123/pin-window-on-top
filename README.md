@@ -1,5 +1,7 @@
 # PinWindowOnTop
 
+**🌐 Website:** [turhe123.github.io/pin-window-on-top](https://turhe123.github.io/pin-window-on-top/)
+
 Pin any window above all others with a hotkey, with an optional see-through fade and click-through mode.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,13 @@ macOS does not let one app change the window level of another app's windows. Pin
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="PinWindowOnTop menu bar menu" width="720"></p>
+
+<p align="center"><em>The menu bar menu, with the Pin / Unpin Front Window action and its ⌃⌥P hotkey, the pinned-window list, Unpin All, Settings, and Support / Donate.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="PinWindowOnTop Settings window" width="560"></p>
+
+<p align="center"><em>The Settings window, where you can re-record the global hotkey and set the color, thickness and opacity of the border marker on pinned windows.</em></p>
 
 ## Install
 

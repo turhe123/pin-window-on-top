@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu, with the Pin / Unpin Front Window action and its ⌃⌥P hotkey, the pinned-window list, Unpin All, Settings, and Support / Donate.","alt":"PinWindowOnTop menu bar menu"},
+  {"file":"02-settings.png","caption":"The Settings window, where you can re-record the global hotkey and set the color, thickness and opacity of the border marker on pinned windows.","alt":"PinWindowOnTop Settings window"}
+]
